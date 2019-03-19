@@ -11,9 +11,11 @@ const writeArrow = function () {
 
 const csvModel = new Csv(csvFilePath);
 const csv = csvModel;
+let model = {};
 
-csv.load(() => {
-  console.log('\ncsv文件加载完毕。查询例子：csv.get({\'word\': \'about\'})');
+csv.load((_model) => {
+  console.log(`\ncsv文件加载完毕。使用的是json-lib（https://github.com/lisniuse/json-lib）作为json操作类库。\n查询单词例子：${chalk.green('model.findSync({\'word\': \'about\'});')}`);
+  model = _model;
   writeArrow();
 });
 

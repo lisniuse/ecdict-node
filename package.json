@@ -12,6 +12,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "csvtojson": "^2.0.8",
+    "json-lib": "^0.0.3",
     "lodash": "^4.17.11",
     "word-table": "^1.0.3"
   }
