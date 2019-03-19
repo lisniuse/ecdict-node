@@ -1,0 +1,18 @@
+{
+  "name": "ecdict-node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node client.js"
+  },
+  "author": "zhibing <17560235@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "csvtojson": "^2.0.8",
+    "lodash": "^4.17.11",
+    "word-table": "^1.0.3"
+  }
+}
