@@ -1,11 +1,11 @@
 {
   "name": "ecdict-node",
   "version": "0.1.0",
-  "description": "",
+  "description": "nodejs 词典工具。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node client.js"
+    "start": "node terminal.js"
   },
   "author": "zhibing <17560235@qq.com>",
   "license": "ISC",
